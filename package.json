@@ -1,0 +1,26 @@
+{
+  "name": "pptr-testing-project",
+  "version": "1.0.0",
+  "description": "[ ] Setup SSH",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/example**.js",
+    "e2e": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e**.js"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Automated",
+    "Project"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "puppeteer": "^9.1.0"
+  }
+}
